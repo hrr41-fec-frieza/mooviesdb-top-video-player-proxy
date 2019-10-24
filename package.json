@@ -1,0 +1,25 @@
+{
+  "name": "mooviesdb-top-video-player-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for mooviesdb-top-video-player",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr41-fec-frieza/mooviesdb-top-video-player-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr41-fec-frieza/mooviesdb-top-video-player-proxy/issues"
+  },
+  "homepage": "https://github.com/hrr41-fec-frieza/mooviesdb-top-video-player-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "http-proxy": "^1.18.0"
+  }
+}
